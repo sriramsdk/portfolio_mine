@@ -11,7 +11,7 @@ export default function Skills() {
         <SectionTitle
           eyebrow="Stack"
           title="Skills"
-          subtitle="Organized by what you’ll actually use on real projects."
+          subtitle="Organized by what I actually use on real projects."
         />
 
         <div className="grid" style={{ gridTemplateColumns: "repeat(2, minmax(0, 1fr))" }}>

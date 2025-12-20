@@ -66,6 +66,7 @@ export default function Hero() {
               <span className="pill">PHP</span>
               <span className="pill">MERN</span>
               <span className="pill">Python</span>
+              <span className="pill">Flutter</span>
             </div>
           </div>
         </motion.div>

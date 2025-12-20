@@ -20,7 +20,7 @@ export default function Projects() {
         <SectionTitle
           eyebrow="Work"
           title="Projects"
-          subtitle="Add 3–6 strongest projects with measurable impact and links."
+          subtitle="I listed down my personal projects excluded my official office projects"
         />
 
         <div className="grid" style={{ gridTemplateColumns: "repeat(2, minmax(0, 1fr))" }}>

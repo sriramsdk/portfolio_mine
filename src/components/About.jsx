@@ -10,7 +10,7 @@ export default function About() {
         <SectionTitle
           eyebrow="Overview"
           title="About"
-          subtitle="A recruiter-friendly snapshot of your strengths and what you deliver."
+          subtitle="A overview about my strengths"
         />
 
         <motion.div
@@ -23,19 +23,20 @@ export default function About() {
         >
           <div className="grid" style={{ gridTemplateColumns: "1fr 1fr" }}>
             <div>
-              <h3 style={{ margin: "0 0 8px" }}>What recruiters like</h3>
+              <h3 style={{ margin: "0 0 8px" }}>How I deliver value</h3>
               <ul style={{ margin: 0, paddingLeft: 18, color: "rgba(255,255,255,.78)" }}>
-                <li>Production-focused: clean code, performance, maintainability.</li>
+                <li>Production-focused: Clean code, Performance, Unit Testing, Maintainability.</li>
                 <li>Strong PHP ecosystems: Laravel, CodeIgniter, Drupal, WordPress.</li>
                 <li>Modern full-stack: MERN + API integrations + databases.</li>
+                <li>Mobile App development: Flutter</li>
               </ul>
             </div>
             <div>
-              <h3 style={{ margin: "0 0 8px" }}>What you can add</h3>
+              <h3 style={{ margin: "0 0 8px" }}>Where I fit in your team</h3>
               <ul style={{ margin: 0, paddingLeft: 18, color: "rgba(255,255,255,.78)" }}>
-                <li>Key domain: ecommerce, CRM, ERP, booking, CMS, etc.</li>
-                <li>One-line achievements with numbers (speed, users, revenue, automation).</li>
-                <li>Any leadership: mentoring, ownership, reviews.</li>
+                <li>Key domain: Ecommerce, CRM, ERP, booking, CMS, etc.</li>
+                <li>Covering Frontend, Backend and Mobile App</li>
+                <li>Leadership: Mentoring, Code and Project reviews, Tech and Business Analysis, Coordination.</li>
               </ul>
             </div>
           </div>

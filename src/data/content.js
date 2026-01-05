@@ -24,7 +24,7 @@ export const SKILLS = [
   { group: "Python", items: ["Automation", "Scripting", "API Integration", "Frappe"] },
   { group: "Flutter", items: ["Flutter", "Dart", "REST APIs", "State management"] },
   { group: "Database", items: ["MySQL", "MongoDB"] },
-  { group: "Tools", items: ["Git", "SFTP" , "WSL", "Linux", "Postman", "Deployment (Netlify)"] }
+  { group: "Tools", items: ["Git", "SFTP", "WSL", "Linux", "Postman", "Deployment (Netlify)", "Docker"] }
 ];
 
 export const PROJECTS = [

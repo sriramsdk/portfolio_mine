@@ -31,7 +31,8 @@ export default function Contact() {
 
     try {
       
-      const res = await fetch(' https://my-portfolio-backend-kigi.onrender.com/submit',{
+      const res = await fetch('https://my-portfolio-backend-kigi.onrender.com/submit',{
+      // const res = await fetch('http://localhost:3500/submit',{
         method : "POST",
         headers : {
           "Content-Type" : "application/json",
@@ -41,7 +42,7 @@ export default function Contact() {
       });
 
       if(res.status == 500 || res.status == 400){
-        console.log(res.message);
+        // console.log(res.message);
         throw new Error(`Request Failed : ${res.message}`);
       }
       console.log(res.message);
